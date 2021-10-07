@@ -1,0 +1,20 @@
+# Input group
+.input-group > .input-group-prepend + input.form-control  > span.input-group-text 
+.input-group > .input-group-append > span.input-group-text 
+
+# Input group sizing 
+.input-group mb-3 input-group-sm
+
+# Multiple Inputs and Helpers
+# Input Group with Checkboxes and Radios
+
+.input-group > .input-group-prepend > .input-group-text > input:Checkbox
+# Input Group Buttons
+ .input-group >input.form-control + .input-group-prepend > button.btn  
+
+# Input Group with Dropdown Button
+.input-group > input-group-prepend > button + .dropdown-menu > dropdown-item 
+.input-group> input.form-control 
+
+# Input Group Labels
+.input-group > .input-group-prepend > span.input-group-text {@}
